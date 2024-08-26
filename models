@@ -1,0 +1,21 @@
+* Attributes *
+cleanInterventions = cleaning interventions
+cleanInterventionsBXL = cleaning interventions specifically for Brussels (BXL)
+fixcordsLat = standardized coordinates BXL latitude
+fixcordsLong = standardized coordinates BXL longitude
+distanceCord = distance between coordinates
+
+* Functions *
+get_coordinates = retrieves or calculates coordinates for data points
+
+* Models and Methods Used *
+IsolationForest = anomaly detection using Isolation Forest model
+SHAP = SHapley Additive exPlanations for model interpretability
+LIME = Local Interpretable Model-agnostic Explanations for model interpretability
+
+* Data Processing and Analysis *
+pandas = data manipulation and analysis library
+geopy = geolocation processing library
+matplotlib = visualization library for plotting graphs
+seaborn = statistical data visualization library
+sklearn = machine learning library, used for various models and data preprocessing
